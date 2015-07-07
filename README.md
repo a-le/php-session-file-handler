@@ -12,5 +12,5 @@ The objective is to improve speed for cases of concurrent session read access, a
  ```
  session_set_save_handler( new FileSessionHandler(), true );
  session_start();
- // use session as usual...
+ // then use php session functions like you usually do...
 ```

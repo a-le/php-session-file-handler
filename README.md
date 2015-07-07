@@ -1,4 +1,4 @@
-# php-session-file-handler
+`# php-session-file-handler
 File based session storage, wich permits concurrent access. No LOCK_EX on file (opposite of PHP internal session handler).
 
 The objective is to improve speed for cases of concurrent session read access, as PHP default session handler is sequential.
@@ -11,4 +11,4 @@ The objective is to improve speed for cases of concurrent session read access, a
  -------------
  session_set_save_handler( new CustomSessionHandler(), true );
  session_start();
- // use session as usual...
+ // use session as usual...`

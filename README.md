@@ -10,7 +10,7 @@ The objective is to improve speed for cases of concurrent session read access, a
  How to use :
  -------------
  ```
- session_set_save_handler( new CustomSessionHandler(), true );
+ session_set_save_handler( new FileSessionHandler(), true );
  session_start();
  // use session as usual...
 ```

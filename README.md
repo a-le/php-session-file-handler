@@ -21,11 +21,11 @@ References :
 - about race conditions : http://thwartedefforts.org/2006/11/11/race-conditions-with-ajax-and-php-sessions/
 
  
- How to use :
- -------------
- ```
- require('FileSessionHandler.php');
- session_set_save_handler( new FileSessionHandler(), true );
- session_start();
- // then use php session functions like you usually do...
+How to use :
+-------------
+```
+require('FileSessionHandler.php');
+session_set_save_handler( new FileSessionHandler(), true );
+session_start();
+// then use php session functions like you usually do...
 ```
